@@ -27,24 +27,6 @@ function toggleDarkLightMode(isDark) {
   isDark ? imageMode('dark') : imageMode('light');
 }
 
-// // Dark mode styles
-// function darkMode() {
-//   nav.style.backgroundColor = 'rgb(0 0 0 / 50%)';
-//   textBox.style.backgroundColor = 'rgb(255 255 255/ 50%)';
-//   toggleIcon.children[0].textContent = 'Dark Mode';
-//   toggleIcon.children[1].classList.replace('fa-sun', 'fa-moon');
-//   imageMode('dark');
-// }
-
-// // Light mode styles
-// function lightMode() {
-//   nav.style.backgroundColor = 'rgb(255 255 255 / 50%)';
-//   textBox.style.backgroundColor = 'rgb(0 0 0/ 50%)';
-//   toggleIcon.children[0].textContent = 'Light Mode';
-//   toggleIcon.children[1].classList.replace('fa-moon', 'fa-sun');
-//   imageMode('light');
-// }
-
 // Switch theme dynamically
 function switchTheme(event) {
   if (event.target.checked) {
